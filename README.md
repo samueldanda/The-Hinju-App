@@ -2,7 +2,34 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Welcome to The Hinju App repository! This repository houses the source code for our revolutionary app that simplifies the process of buying gas (diesel and petrol). Say goodbye to cash payments and embrace a convenient and secure digital experience.
+<div style="display: flex; align-items: center;">
+  <img src="screenshots/feature-graphic.png" alt="Feature Graphic" width="400" />
+  <div style="margin-left: 20px;">
+    <p>
+      Welcome to The Hinju App repository! This repository houses the source code for our revolutionary app that simplifies the process of buying gas (diesel and petrol). Say goodbye to cash payments and embrace a convenient and secure digital experience.
+    </p>
+    <p>
+      <a href="https://play.google.com/store/apps/details?id=com.samtechs.thehinjuapp">
+        <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Download on Google Play" height="60" />
+      </a>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+## Screenshots
+
+<div style="display: flex; justify-content: center;">
+  <img src="screenshots/screenshoot_1.png" alt="Screenshot 1" width="20%"/>
+  <img src="screenshots/screenshoot_2.png" alt="Screenshot 2" width="20%"/>
+  <img src="screenshots/screenshoot_3.png" alt="Screenshot 3" width="20%"/>
+  <img src="screenshots/screenshoot_4.png" alt="Screenshot 4" width="20%"/>
+  <img src="screenshots/screenshoot_5.png" alt="Screenshot 5" width="20%"/>
+</div>
+
 
 ## Key Features
 
