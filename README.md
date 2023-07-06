@@ -23,11 +23,11 @@
 ## Screenshots
 
 <div style="display: flex; justify-content: center;">
-  <img src="screenshots/screenshoot_1.png" alt="Screenshot 1" width="20%"/>
-  <img src="screenshots/screenshoot_2.png" alt="Screenshot 2" width="20%"/>
-  <img src="screenshots/screenshoot_3.png" alt="Screenshot 3" width="20%"/>
-  <img src="screenshots/screenshoot_4.png" alt="Screenshot 4" width="20%"/>
-  <img src="screenshots/screenshoot_5.png" alt="Screenshot 5" width="20%"/>
+  <img src="screenshots/screenshoot_1.png" alt="Screenshot 1" width="18%"/>
+  <img src="screenshots/screenshoot_2.png" alt="Screenshot 2" width="18%"/>
+  <img src="screenshots/screenshoot_3.png" alt="Screenshot 3" width="18%"/>
+  <img src="screenshots/screenshoot_4.png" alt="Screenshot 4" width="18%"/>
+  <img src="screenshots/screenshoot_5.png" alt="Screenshot 5" width="18%"/>
 </div>
 
 
