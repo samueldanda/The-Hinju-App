@@ -80,7 +80,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contact
 
-Have any questions or suggestions? Feel free to reach out to our team at [your-email@example.com](mailto:dandasamuel1@gmail.com).
+Have any questions or suggestions? Feel free to reach out to our team at [dandasamuel1@gmail.com](mailto:dandasamuel1@gmail.com).
 
 We appreciate your interest in The Hinju App. Happy fueling!
 
