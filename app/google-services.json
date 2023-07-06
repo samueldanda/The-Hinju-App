@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316220868678",
+    "project_id": "the-hinju-app",
+    "storage_bucket": "the-hinju-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316220868678:android:ec8160caa13d9958f86247",
+        "android_client_info": {
+          "package_name": "com.samtechs.thehinjuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316220868678-rerpdd15ula6q9kunu1uq71515sgfira.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGKZnt1HEer22-ib7QRFTZr1D-eC1WL-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316220868678-rerpdd15ula6q9kunu1uq71515sgfira.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

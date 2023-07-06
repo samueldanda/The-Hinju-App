@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/app_bar_title_notifications"
+        android:contentDescription="@string/app_bar_title_notifications"
+        android:iconTint="?colorPrimary"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/toolbar_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/app_bar_title_settings"
+        android:contentDescription="@string/app_bar_title_settings"/>
+
+</menu>

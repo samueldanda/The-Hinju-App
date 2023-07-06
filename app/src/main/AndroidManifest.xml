@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheHinjuApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.payment.checkout.CreditCardCheckOutActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.TheHinjuApp.NoActionBar" />
+        <activity
+            android:name=".ui.payment.checkout.GooglePayCheckOutActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.TheHinjuApp.NoActionBar" />
+        <activity
+            android:name=".ui.payment.checkout.PayPalCheckOutActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.TheHinjuApp.NoActionBar" />
+        <activity
+            android:name=".ui.payment.checkout.WalletCheckOutActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.TheHinjuApp.NoActionBar" />
+        <activity
+            android:name=".ui.payment.GooglePayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_google_pay"
+            android:theme="@style/Theme.TheHinjuApp" /> <!-- This element is required to enable Google Pay in your app. -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".ui.payment.GoogleWalletActivity"
+            android:exported="false"
+            android:label="@string/title_activity_google_wallet"
+            android:theme="@style/Theme.TheHinjuApp" />
+        <activity
+            android:name=".ui.payment.ConfirmOrderActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.TheHinjuApp.NoActionBar" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.TheHinjuApp.NoActionBar" />
+        <activity
+            android:name=".ui.SplashScreenActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
