@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 <div style="display: flex; align-items: center;">
-  <img src="screenshots/feature-graphic.png" alt="Feature Graphic" width="400" />
+  <img src="screenshots/feature-graphic.png" alt="Feature Graphic" width="400" align="left"/>
   <div style="margin-left: 20px;">
     <p>
       Welcome to The Hinju App repository! This repository houses the source code for our revolutionary app that simplifies the process of buying gas (diesel and petrol). Say goodbye to cash payments and embrace a convenient and secure digital experience.
