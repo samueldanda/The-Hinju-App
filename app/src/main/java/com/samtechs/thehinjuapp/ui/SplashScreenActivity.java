@@ -9,6 +9,7 @@ import androidx.core.splashscreen.SplashScreen;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -37,6 +38,7 @@ import org.json.JSONObject;
 
 import cz.msebera.android.httpclient.Header;
 
+@SuppressLint("CustomSplashScreen")
 public class SplashScreenActivity extends AppCompatActivity {
     private SharedPreferences session;
 
@@ -106,6 +108,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                                 InternetConnectivity internetConnectivity = new InternetConnectivity(SplashScreenActivity.this);
                                 if (!internetConnectivity.isConnected()) {
 
+                                    //noinspection deprecation
                                     Snackbar.make(progressIndicator, R.string.internet_connection_unavailable_text, Snackbar.LENGTH_LONG)
                                             .setBackgroundTint(getResources().getColor(R.color.md_theme_light_error))
                                             .addCallback(new Snackbar.Callback(){
@@ -151,7 +154,6 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void onStart() {
                 super.onStart();
                 Log.i("REACH", "3 - void onStart()");
-//                showLoading(getWindow(), sendRequestMaterialButton, progressIndicator, true);
             }
 
             @Override
